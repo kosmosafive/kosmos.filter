@@ -1,0 +1,32 @@
+{
+  "name": "kosmosafive/kosmos.filter",
+  "description": "Kosmos: Фильтр",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/kosmosafive/kosmos.filter",
+  "type": "bitrix-d7-module",
+  "minimum-stability": "stable",
+  "keywords": [
+    "bitrix",
+    "api",
+    "kosmos",
+    "filter",
+    "query",
+    "orm"
+  ],
+  "authors": [
+    {
+      "name": "Siarhei Buinevich",
+      "email": "a5-kosmos@yandex.ru",
+      "homepage": "https://t.me/kosmosafive",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.3",
+    "composer/installers": "^2",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
